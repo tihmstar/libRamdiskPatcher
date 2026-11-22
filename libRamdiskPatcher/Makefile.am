@@ -1,4 +1,4 @@
-AM_CFLAGS = -I$(top_srcdir)/include $(libgeneral_CFLAGS) $(libinsn_CFLAGS) $(libpatchfinder_CFLAGS) $(libra1nsn0w_CFLAGS) $(libramdisk_CFLAGS) $(openssl_CFLAGS)
+AM_CFLAGS = -I$(top_srcdir)/include $(libgeneral_CFLAGS) $(libinsn_CFLAGS) $(libpatchfinder_CFLAGS) $(libramdisk_CFLAGS) $(openssl_CFLAGS)
 AM_CXXFLAGS = $(AM_CFLAGS)
 AM_LDFLAGS = $(libgeneral_LIBS) $(libinsn_LIBS) $(libpatchfinder_LIBS) $(libramdisk_LIBS) $(openssl_LIBS)
 
