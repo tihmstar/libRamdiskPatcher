@@ -83,7 +83,7 @@ AC_SUBST(GLOBAL_LDFLAGS)
 
 AC_CONFIG_FILES([Makefile
                 include/Makefile
-                libramdiskpatcher.pc
+                libRamdiskPatcher.pc
                 libRamdiskPatcher/Makefile])
 AC_OUTPUT
 

@@ -8,5 +8,5 @@ Description: A library for patching iOS ramdisks
 
 Requires: @libgeneral_requires@ @libpatchfinder_requires@ @libramdisk_requires@ @openssl_requires@
 Version: @VERSION_COMMIT_COUNT@
-Libs: -L${libdir} -lramdiskpatcher
+Libs: -L${libdir} -lRamdiskPatcher
 Cflags: -I${includedir}
