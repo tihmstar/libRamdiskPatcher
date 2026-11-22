@@ -34,7 +34,7 @@ RAMDISK_PATCHER_API void RPPF::applyPatches(std::vector<tihmstar::patchfinder::p
         memcpy(&file[off], p.getPatch(), p.getPatchSize());
     }
 #ifdef DEBUG
-    printf("RPPF: Patches applied!");
+    printf("RPPF: Patches applied!\n");
 #endif
 }
 
